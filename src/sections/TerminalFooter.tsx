@@ -234,7 +234,7 @@ export default function TerminalFooter() {
               <div className="space-y-3 font-mono text-[11px] text-text-secondary">
                 <div>
                   <span className="text-text-primary">Design</span>
-                  <span className="block text-text-secondary/70">STP_Dev Studio</span>
+                  <span className="block text-text-secondary/70">STP.Dev Studio</span>
                 </div>
                 <div>
                   <span className="text-text-primary">Fonts</span>
@@ -265,7 +265,7 @@ export default function TerminalFooter() {
             STP v2.0 — Built with precision and care
           </div>
           <div className="font-mono text-[10px] text-text-secondary/60">
-            &copy; {new Date().getFullYear()} STP_Dev. All rights reserved.
+            &copy; {new Date().getFullYear()} STP.Dev. All rights reserved.
           </div>
         </div>
       </div>

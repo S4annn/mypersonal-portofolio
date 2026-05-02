@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     name: 'Sarah Chen',
     role: 'Product Manager at TechCorp',
-    text: 'Working with STP_Dev was an incredible experience. The attention to detail and creative approach transformed our product vision into reality. The results exceeded all expectations.',
+    text: 'Working with STP.Dev was an incredible experience. The attention to detail and creative approach transformed our product vision into reality. The results exceeded all expectations.',
     avatar: '👩‍💼',
     rating: 5,
   },

@@ -233,14 +233,14 @@ export default function AboutMe() {
                 Creative Developer & Designer
               </p>
               <p className="bio-text">
-                I'm a passionate fullstack developer with 5+ years of experience creating 
-                immersive digital experiences. I specialize in building modern web applications 
-                that combine beautiful design with powerful functionality. My approach blends 
+                I'm a passionate fullstack developer with 5+ years of experience creating
+                immersive digital experiences. I specialize in building modern web applications
+                that combine beautiful design with powerful functionality. My approach blends
                 creative thinking with technical precision.
               </p>
               <p className="bio-text" style={{ marginTop: '12px' }}>
-                When I'm not coding, you'll find me exploring new AI technologies, 
-                contributing to open-source projects, or experimenting with creative 
+                When I'm not coding, you'll find me exploring new AI technologies,
+                contributing to open-source projects, or experimenting with creative
                 coding and generative art.
               </p>
             </div>
