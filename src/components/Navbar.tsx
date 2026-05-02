@@ -83,7 +83,7 @@ export default function Navbar() {
           onClick={(e) => handleNavClick(e, '#hero-section')}
           style={{ fontSize: '14px', fontWeight: 600, color: textColor, textDecoration: 'none', letterSpacing: '0.05em', transition: 'color 0.4s ease' }}
         >
-          STP<span style={{ color: '#ff3e00' }}>_</span>Dev
+          STP<span style={{ color: '#ff3e00' }}>.</span>Dev
         </a>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useSmoothScroll } from '@/hooks/useSmoothScroll';
 import Navbar from '@/components/Navbar';
 import ScrollToTop from '@/components/ScrollToTop';
@@ -9,6 +10,14 @@ import ContactFooter from '@/sections/ContactFooter';
 
 function App() {
   useSmoothScroll();
+
+  // Bersihkan URL dari query parameters (seperti ?utm_source=... & fbclid=...)
+  useEffect(() => {
+    if (window.location.search) {
+      const cleanUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+      window.history.replaceState({}, document.title, cleanUrl);
+    }
+  }, []);
 
   return (
     <div className="relative">

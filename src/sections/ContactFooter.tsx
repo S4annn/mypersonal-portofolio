@@ -237,7 +237,7 @@ export default function ContactFooter() {
         <div className="footer-inner">
           <div className="footer-brand">
             <span className="footer-logo font-mono">
-              STP<span style={{ color: '#ff3e00' }}>_</span>Dev
+              STP<span style={{ color: '#ff3e00' }}>.</span>Dev
             </span>
             <span className="footer-version font-mono">v2.0</span>
           </div>

@@ -171,7 +171,7 @@ export default function AboutMe() {
   const timeline = [
     {
       year: '2024 — Present',
-      title: 'Senior Fullstack Developer',
+      title: 'Junior Fullstack Developer',
       company: 'Creative Agency',
       description: 'Leading development of cutting-edge web applications with modern React ecosystem and AI integration.',
     },
@@ -217,9 +217,13 @@ export default function AboutMe() {
           {/* Bio side */}
           <div ref={bioRef} className="bio-card" style={{ opacity: 0 }}>
             <div className="bio-avatar">
-              <div className="avatar-ring">
-                <div className="avatar-placeholder">
-                  <span style={{ fontSize: '48px' }}>👨‍💻</span>
+              <div className="avatar-ring" style={{ width: '100px', height: '100px' }}>
+                <div className="avatar-placeholder" style={{ overflow: 'hidden' }}>
+                  <img 
+                    src="/sandy.png" 
+                    alt="Sandy Teuku Pranata" 
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
                 </div>
               </div>
               <div className="avatar-status">
@@ -233,7 +237,7 @@ export default function AboutMe() {
                 Creative Developer & Designer
               </p>
               <p className="bio-text">
-                I'm a passionate fullstack developer with 5+ years of experience creating
+                I'm a passionate fullstack developer with 2+ years of experience creating
                 immersive digital experiences. I specialize in building modern web applications
                 that combine beautiful design with powerful functionality. My approach blends
                 creative thinking with technical precision.
@@ -249,7 +253,7 @@ export default function AboutMe() {
           {/* Stats side */}
           <div className="stats-grid">
             <AnimatedStat value={50} label="Projects Completed" suffix="+" />
-            <AnimatedStat value={5} label="Years Experience" suffix="+" />
+            <AnimatedStat value={2} label="Years Experience" suffix="+" />
             <AnimatedStat value={30} label="Happy Clients" suffix="+" />
             <AnimatedStat value={99} label="Success Rate" suffix="%" />
           </div>
